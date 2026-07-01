@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:resizeableActivity="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrgistaOpenPdf">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="com.oculus.vrdesktop.control_bar_config"
+                android:value="{'show_title':true,'show_report_bug':false,'with_back_button':false}" />
+            <meta-data
+                android:name="com.oculus.magic.magic_island_support"
+                android:value="true" />
+            <meta-data
+                android:name="com.oculus.vrshell.supports_blend_effects"
+                android:value="true" />
+            <meta-data
+                android:name="com.oculus.vrshell.supports_panel_shading"
+                android:value="true" />
+            <meta-data
+                android:name="com.oculus.vrshell.free_resizing_limits"
+                android:value="1024,1600,640,1024" />
+            <layout
+                android:defaultHeight="768dp"
+                android:defaultWidth="1024dp" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.oculus.intent.category.2D" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SidePanelActivity"
+            android:allowEmbedded="true"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:resizeableActivity="true"
+            android:screenOrientation="landscape"
+            android:taskAffinity="com.orgista.openpdf.sidepanel"
+            android:theme="@style/Theme.OrgistaOpenPdf.SidePanel">
+            <meta-data
+                android:name="com.oculus.vrdesktop.control_bar_config"
+                android:value="{'show_title':true,'show_report_bug':false,'with_back_button':false}" />
+            <meta-data
+                android:name="com.oculus.magic.magic_island_support"
+                android:value="true" />
+            <meta-data
+                android:name="com.oculus.vrshell.supports_blend_effects"
+                android:value="true" />
+            <meta-data
+                android:name="com.oculus.vrshell.supports_panel_shading"
+                android:value="true" />
+            <meta-data
+                android:name="com.oculus.vrshell.free_resizing_limits"
+                android:value="420,960,640,960" />
+            <layout
+                android:defaultHeight="768dp"
+                android:defaultWidth="420dp" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="com.orgista.openpdf.SIDE_PANEL" />
+                <category android:name="com.oculus.intent.category.2D" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

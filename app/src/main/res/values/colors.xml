@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stageTop">#0E1116</color>
+    <color name="stageMid">#0E1116</color>
+    <color name="stageBottom">#0E1116</color>
+    <color name="stageGlow">#0E1116</color>
+    <color name="panelSurface">#1A1F2E</color>
+    <color name="panelSurfaceAlt">#1A1F2E</color>
+    <color name="panelStroke">#2D3748</color>
+    <color name="titleText">#F9FAFB</color>
+    <color name="bodyText">#9CA3AF</color>
+    <color name="panelText">#E5E7EB</color>
+    <color name="panelTextMuted">#9CA3AF</color>
+    <color name="accentBlue">#0081FB</color>
+    <color name="accentBlueDark">#0066CC</color>
+    <color name="accentBlueSoft">#172554</color>
+    <color name="accentRed">#DC2626</color>
+    <color name="accentRedSoft">#FEE2E2</color>
+    <color name="accentGold">#F59E0B</color>
+    <color name="accentGoldSoft">#26FBBF24</color>
+    <color name="accentGoldText">#FCD34D</color>
+    <color name="glassStroke">#2D3748</color>
+    <color name="glassFill">#1A1F2E</color>
+    <color name="chipFill">#2D3748</color>
+    <color name="chipStroke">#4B5563</color>
+    <color name="skeletonBase">#243042</color>
+    <color name="skeletonShade">#2D3748</color>
+    <color name="thumbnailBorder">#2D3748</color>
+    <color name="buttonOnPrimary">#FFFFFFFF</color>
+</resources>
