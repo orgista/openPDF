@@ -1,24 +1,23 @@
-<p align="center">
-  <img alt="openPDF icon" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" width="96">
-</p>
+<div align="center">
 
-<h1 align="center">openPDF</h1>
+<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="OpenPDF icon" width="96">
 
-<h3 align="center">A PDF reader for Meta Quest</h3>
+# OpenPDF
 
-<p align="center">
-  <a href="#install">Install</a> ·
-  <a href="#build-from-source">Build</a> ·
-  <a href="https://orgista.com">orgista.com</a>
-</p>
+**A PDF reader for Meta Quest, in a resizable panel with page thumbnails beside it.**
 
-<p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square"></a>
-  <a href="#compatibility"><img alt="Platform: Meta Quest" src="https://img.shields.io/badge/platform-Meta%20Quest-1c1e20?style=flat-square"></a>
-  <a href="#compatibility"><img alt="Min API 29" src="https://img.shields.io/badge/min%20API-29-3ddc84?style=flat-square"></a>
-</p>
+[![CI](https://img.shields.io/github/actions/workflow/status/orgista/openPDF/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/orgista/openPDF/actions/workflows/ci.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/orgista/openPDF/badge)](https://scorecard.dev/viewer/?uri=github.com/orgista/openPDF)
+[![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square)](LICENSE)
+[![Platform: Meta Quest](https://img.shields.io/badge/platform-Meta%20Quest-1c1e20?style=flat-square)](#compatibility)
 
-openPDF opens PDF files in a resizable floating panel on Meta Quest, with a companion side panel for page thumbnails. This is an early release (version 0.1.0): it covers reading, and leaves annotation and search for later.
+[Install](#install) · [Build from source](#build-from-source) · [orgista.com](https://orgista.com)
+
+</div>
+
+---
+
+OpenPDF opens PDF files in a resizable floating panel on Meta Quest, with a companion side panel for page thumbnails. This is an early release (version 0.1.0): it covers reading, and leaves annotation and search for later.
 
 ## Features
 
@@ -74,17 +73,13 @@ cd openPDF
 
 ## Privacy
 
-Documents are opened and rendered on the device. openPDF declares no network permission and has no account, backend, or analytics.
+Documents are opened and rendered on the device. OpenPDF declares no network permission and has no account, backend, or analytics.
 
 ## More from orgista
 
 - [OpenQR](https://github.com/orgista/openQR): a QR code reader for Meta Quest 3 and 3S
 
 ## Releases
-
-[![CI](https://github.com/orgista/openPDF/actions/workflows/ci.yml/badge.svg)](https://github.com/orgista/openPDF/actions/workflows/ci.yml)
-[![Latest release](https://img.shields.io/github/v/release/orgista/openPDF?include_prereleases&sort=semver)](https://github.com/orgista/openPDF/releases)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/orgista/openPDF/badge)](https://scorecard.dev/viewer/?uri=github.com/orgista/openPDF)
 
 Downloads live on the [Releases page](https://github.com/orgista/openPDF/releases): the signed APK.
 The release APK is built and signed on our build Mac and published there.
